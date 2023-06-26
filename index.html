@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my_profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p>Hi, Iam</p>
+      <h1>Rasal Jaman</h1>
+    </header>
+    <nav>
+      <a href="#section1">About</a>
+      <a href="#section2">Skills</a>
+      <a href="#section3">Education</a>
+      <a href="#section4">Condact</a>
+    </nav>
+
+    <nav class="navbar">
+      <div >
+        <button class="navbar-btn" onclick="openNav()">☰</button>
+      </div>
+    </nav>
+
+    <div id="sidebar" class="sidebar">
+      <div class="close-nav">
+        <button class="close-nav-btn" onclick="closeNav()">×</button>
+      </div>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+      </ul>
+    </div>
+    
+    <section class="section" id="section1">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am a full-stack web developer with 5 years of experience. I am
+          passionate about creating clean, elegant, and efficient code. I enjoy
+          learning new technologies and solving challenging problems.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="section2">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>React</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="section3">
+      <div class="container">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <h3>Bachelor of Science in Computer Science, University of XYZ</h3>
+            <p>September 2012 - June 2016</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="section4">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Feel free to contact me for any inquiries or job opportunities:</p>
+        <ul>
+          <li>Email: rasal@example.com</li>
+          <li>Phone: 123-456-7890</li>
+          <li>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/rasal/"
+              >https://www.linkedin.com/in/rasal/</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>&copy; Rasal Jaman</footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
